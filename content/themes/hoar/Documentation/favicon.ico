@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="keywords" content="Node.js developers, node.js developer, development, web development, mobile development, Angular, Angular.js, RoR, Python, Django, custom website, android, ios, iphone, ipad, html5">
+    <meta name="description" content="Lodoss Team web and mobile application development company. We provide following services: creation custom web applications, web portals, corporate websites, content management systems, developing creative designs and logos, ios and android apps">
+    <link rel="icon" type="image/png" href="http://www.lodossteam.com/images/favicon.png">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link rel="home" title="Home - Main page LodossTeam company" href="http://www.lodossteam.com/">
+    <link rel="alternate" type="application/rss+xml" href="http://www.lodossteam.com/feed" title="Lodoss Team RSS">
+          <title>LodossTeam | Node.js developers</title>
+        <link media="screen, projection" type="text/css" href="http://www.lodossteam.com/css/base.min.css" rel="stylesheet">
+    <script type="text/javascript">var SYS = {baseUrl: 'http://www.lodossteam.com/'};</script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-41506314-1', 'lodossteam.com');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body screen_capture_injected="true">
+    <div id="wrapper">
+      
+
+<div class="navbar navbar-inverse navbar-static-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <h1><a class="brand sprite logo" href="http://www.lodossteam.com/">Lodoss team</a></h1>
+      <div class="nav-collapse collapse" style="height: 0px;">
+        <ul class="nav">
+                    <li  class="active" ><a href="http://www.lodossteam.com/">Home</a></li>
+                    <li ><a href="http://www.lodossteam.com/portfolio">Portfolio</a></li>
+                    <li ><a href="http://www.lodossteam.com/testimonials">Testimonials</a></li>
+                    <li ><a href="http://www.lodossteam.com/about-us">About Us</a></li>
+                  </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div class="contentw">
+  <div class="container">
+    <h3>Who we are</h3>
+    <div class="row">
+      <div class="span9 shortdescr">
+        <p>We build powerful websites and mobile applications.</p>
+        <p>Powerful, but not complicated. Easy, but not simplistic. Trustworthy, but not stodgy. Informal, but not sloppy. Funny, but not goofy.</p>
+        <p style="display:none;">Our customers are of all sizes ranging, from small startups to large enterprises, who realize that they need professional technology to generate revenue streams. Our main goal is to provide good solutions for our clients on time.</p>
+        <p>We created a wide range web and mobile applications used advanced technologies. We provide full cycle of product development: analytic, design, front-end, programming and maintenance. A lot of successfully completed projects in portfolio are proof of our experience.</p>
+      </div>
+      <div class="span3">
+        <div class="sdimg">
+          <div class="crossdevise">
+            <img src="../images/crossdevise.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--
+  <div class="subcontent">
+    <div class="container ourskill">
+      <div class="row">
+        <div class="span4">
+          <div class="skill">
+            Yeah, we love it!
+            <div class="fa fa-heart"></div>
+            <ul>
+              <li>Node.js / Express</li>
+              <li>Ruby on Rails</li>
+              <li>Python / Django</li>
+              <li>MongoDB / CouchDB</li>
+
+              <li>CoffeeScript</li>
+
+              <li>Native mobile application on Objective C / Java</li>
+
+              <li>SCSS, LESS, Stylus</li>
+
+              <li>AWS (EC2, Elastic Load Balancing, S3, amazon route, EBS, DynamoDB, ElastiCache)</li>
+
+              <li>neo4j</li>
+
+              <li>Backbone.js</li>
+              <li>Angular.js</li>
+            </ul>
+          </div>
+        </div>
+        <div class="span4">
+          <div class="skill">
+            Sure, we can.
+            <div class="fa fa-thumbs-up"></div>
+            <ul>
+              <li>Wordpress</li>
+              <li>Zend Framework</li>
+              <li>Blackberry</li>
+              <li>PostgreeSQL</li>
+
+              <li>Ember.js</li>
+              <li>ExtJs</li>
+            </ul>
+          </div>
+        </div>
+        <div class="span4">
+          <div class="skill">
+            Please, NO!
+            <div class="fa fa-thumbs-down"></div>
+            <ul>
+              <li>.NET / C#</li>
+              <li>PhoneGap</li>
+              <li>Magento</li>
+              <li>Drupal</li>
+              <li>Joomla</li>
+              <li>SocialEngine</li>
+              <li>1C Bitrix</li>
+              <li>CakePHP</li>
+              <li>Titanium</li>
+              <li>MSSQL</li>
+              <li>Any Microsoft technologies</li>
+              <li>SenchaTouch</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  -->
+
+  <div class="container">
+    <h3>What we do</h3>
+    <div class="row shortdescr">
+      <div class="span4">
+        <div class="dsbox">
+          <h4>Web Development</h4>
+          <p>We strive to work with new technologies, therefore our main direction: Node.js, Python, RoR and PHP. We build complex websites optimized for phones and tablets. Your website will look great on every device and meet the needs of each unique set of users.</p>
+        </div>
+      </div>
+      <div class="span4">
+        <div class="dsbox">
+          <h4>Mobile Development</h4>
+          <p>We develop successful iOS and Android applications. Based on years of experience and in-depth knowledge in mobile development, we're well-positioned to undertake mobile applications development spanning business apps and game-dev.</p>
+        </div>
+      </div>
+      <div class="span4">
+        <div class="dsbox">
+          <h4>User Interface Design</h4>
+          <p>Clean, crisp and highly usable interface for websites and mobile apps. According to your desires, needs and requirements we will find a suitable solution and build perfect design that will sit in harmony with an existing brand. Responsive designs ensure your website are perfectly tailored for a multitude of devices.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="subcontent">
+    <div class="container ourskills">
+      <div class="row">
+      <div class="span3">
+        <div class="setskills">
+          Node.js Development
+          <div class="fa fa-code"></div>
+          <ul>
+            <li>Node.js / Coffeescript</li>
+            <li>MongoDB / CouchDB</li>
+            <li>Neo4j / RabbitMQ</li>
+            <li>Graph Database</li>
+          </ul>
+        </div>
+      </div>
+      <div class="span3">
+        <div class="setskills">
+          Mobile development
+          <div class="fa fa-mobile-phone"></div>
+          <ul>
+            <li>iOS / Android</li>
+            <li>Game Development</li>
+            <li>Business Applications</li>
+            <li>OpenGL / Java / C / C++</li>
+          </ul>
+        </div>
+      </div>
+      <div class="span3">
+        <div class="setskills">
+          DB Development
+          <div class="fa fa-hdd-o"></div>
+          <ul>
+            <li>SQL / NoSQL</li>
+            <li>High-loaded systems</li>
+            <li>DB Design</li>
+            <li>DB Optimization</li>
+          </ul>
+        </div>
+      </div>
+      <div class="span3">
+        <div class="setskills">
+          Frameworks / CMS
+          <div class="fa fa-cogs"></div>
+          <ul>
+            <li>Zend / Codeigniter</li>
+            <li>Yii / Kohana</li>
+            <li>Python / Django</li>
+            <li>Ruby-on-Rails</li>
+          </ul>
+        </div>
+      </div>
+      <div class="span3">
+        <div class="setskills">
+          Quality Assurance
+          <div class="fa fa-bug"></div>
+          <ul>
+            <li>Manual testing</li>
+            <li>Automation testing</li>
+            <li>Load / Stress testing</li>
+            <li>Unit testing</li>
+          </ul>
+        </div>
+      </div>
+      <div class="span3">
+        <div class="setskills">
+          Javascript/AJAX
+          <div class="fa fa-terminal"></div>
+          <ul>
+            <li>Backbone.js / Angular.js</li>
+            <li>jQuery / Ember.js</li>
+            <li>ExtJS / Mootools</li>
+            <li>socket.io / Raphaël</li>
+          </ul>
+        </div>
+      </div>
+      <div class="span3">
+        <div class="setskills">
+          Front-end Development
+          <div class="fa fa-html5"></div>
+          <ul>
+            <li>W3C valid HTML</li>
+            <li>HTML5 / CSS3</li>
+            <li>Responsive Design</li>
+            <li>Less / SCSS / SASS</li>
+          </ul>
+        </div>
+      </div>
+      <div class="span3">
+        <div class="setskills">
+          Web Design
+          <div class="fa fa-picture-o"></div>
+          <ul>
+            <li>Logo Design</li>
+            <li>UI/UX Design</li>
+            <li>Graphic Design</li>
+            <li>Corporate Branding</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="container tech_process">
+    <div class="row1">
+      <div class="span-stage">
+        <div class="stage">
+          <h5>Analytics</h5>
+          <div>
+            <!-- <div class="sprit ab-rob-1"></div> -->
+            <img src="../images/robots/robot1.png" alt="">
+          </div>
+          <p>On the first stage we want to know more about your project to provide suitable technologies.</p>
+        </div>
+      </div>
+      <div class="span-stage">
+        <div class="stage odd">
+          <h5>Design</h5>
+          <div>
+            <!-- <div class="sprit ab-rob-2"></div> -->
+            <img src="../images/robots/robot2.png" alt="">
+          </div>
+          <p>On this stage our designer will work on the unique design based on your requirements.</p>
+        </div>
+      </div>
+      <div class="span-stage">
+        <div class="stage">
+          <h5>Development</h5>
+          <div>
+            <!-- <div class="sprit ab-rob-3"></div> -->
+            <img src="../images/robots/robot3.png" alt="">
+          </div>
+          <p>Our developers will choose the best way to implement your ideas into the successful product.</p>
+        </div>
+      </div>
+      <div class="span-stage">
+        <div class="stage odd">
+          <h5>QA</h5>
+          <div>
+            <!-- <div class="sprit ab-rob-4"></div> -->
+            <img src="../images/robots/robot4.png" alt="">
+          </div>
+          <p>At this final step we will test your application in order to be confident in the security of your site.</p>
+        </div>
+      </div>
+      <div class="span-stage">
+        <div class="stage">
+          <h5>Result</h5>
+          <div>
+            <!-- <div class="sprit ab-rob-5"></div> -->
+            <img src="../images/robots/robot5.png" alt="">
+          </div>
+          <p>Your application is ready and we will assist you in placing your application on hosting to quickly come to life.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="subcontent" style="display:none;">
+    <div class="container">
+      <h3>Awards</h3>
+      <div class="awards shortdescr row">
+        <div class="span6">
+          <h4>Certificates</h4>
+          <div class="cert">
+            <h5>10gen</h5>
+            <ul>
+              <li>1 "Mongo for DBAs" certificate</li>
+              <li>3 "MongoDB for developers" certificates</li>
+            </ul>          
+          </div>
+          <div class="cert">
+            <h5>Brainbench</h5>
+            <ul>
+              <li>12 "CSS3" Certificates</li>
+              <li>5 "PHP 5.3" Certificates</li>
+              <li>2 "Javascript" Certificates</li>
+              <li>3 "Java 6 Fundamentals" Certificate</li>
+              <li>1 "Android 4.0 Development" Certificate</li>
+            </ul>          
+          </div>
+          <div class="cert">
+            <h5>W3School</h5>
+            <ul>
+              <li>1 "W3Schools' HTML5" Certificate</li>
+            </ul>          
+          </div>
+          <div class="cert">
+            <h5>ExpertRating</h5>
+            <ul>
+              <li>1 "ExpertRating CSS3" Certificate</li>
+            </ul>          
+          </div>
+          <div class="cert">
+            <h5>Google</h5>
+            <ul>
+              <li>1 "Google Analytics Individual Qualification" Certificate</li>
+            </ul>          
+          </div>
+        </div>
+        <div class="span6">
+          <h4>Sport awards</h4>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+    </div>
+              <div class="footer_wrapper hidden-phone">
+        <div class="footer_sec_wrapper">
+          <div class="footer-widgets container">
+            <div class="row">
+              <div class="span4 footer_widget_recentpost">
+                <div class="footer_posts">
+                  <h3>Recent Projects</h3>
+                  <ul>
+                    <li>
+                      <div class="posts_images_top footerImg">
+                        <a rel="bookmark" title="shopsterhood.com" href="https://shopsterhood.com" class="hov">
+                          <img alt="shopsterhood.com" width="80" height="80" src="http://www.lodossteam.com/images/shopster-avatar.png"/>
+                        </a>
+                      </div>
+                      <div class="posts_txt">
+                        <a class="posts_item" href="https://shopsterhood.com">
+                          <span>Shopsterhood.com</span>
+                        </a>
+                        <p class="posts_date">January 17, 2014</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="posts_images_top footerImg">
+                        <a rel="bookmark" title="legalnature.com" href="http://www.legalnature.com" class="hov">
+                          <img alt="LegalNature.com" width="80" height="80" src="http://www.lodossteam.com/images/legalnature_avatar.png"/>
+                        </a>
+                      </div>
+                      <div class="posts_txt">
+                        <a class="posts_item" href="http://www.legalnature.com">
+                          <span>LegalNature.com</span>
+                        </a>
+                        <p class="posts_date">March 01, 2013</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="span4 footer_widget_twitter">
+                <h3>Twitter</h3>
+                <div class="widget">
+                  <a class="twitter-timeline" data-tweet-limit="2" data-chrome="noheader noborders noscrollbar nofooter transparent" href="https://twitter.com/lodossteam" data-widget-id="337148277948567552">Tweets by @lodossteam</a>
+                </div>
+              </div>
+              <div class="span4 footer_widget_flickr">
+                <h3>Flickr</h3>
+                <div class="block_flickr">
+                  <ul>
+                                          <li>
+                        <div class="flickr_item">
+                          <a data-rel="prettyPhoto[flickr]" rel="" href="http://farm6.static.flickr.com/5485/10358195943_3b99fcf97c_b.jpg">
+                            <img width="50" title="Седьмая по счету конференция, впервые записываем видео." height="50" alt="Седьмая по счету конференция, впервые записываем видео." src="http://farm6.static.flickr.com/5485/10358195943_3b99fcf97c_s.jpg" />
+                          </a>
+                        </div>
+                      </li>
+                                          <li>
+                        <div class="flickr_item">
+                          <a data-rel="prettyPhoto[flickr]" rel="" href="http://farm4.static.flickr.com/3753/9377359124_07d2753db2_b.jpg">
+                            <img width="50" title="Awards" height="50" alt="Awards" src="http://farm4.static.flickr.com/3753/9377359124_07d2753db2_s.jpg" />
+                          </a>
+                        </div>
+                      </li>
+                                          <li>
+                        <div class="flickr_item">
+                          <a data-rel="prettyPhoto[flickr]" rel="" href="http://farm4.static.flickr.com/3762/9269236648_102a9b75bd_b.jpg">
+                            <img width="50" title="W3c" height="50" alt="W3c" src="http://farm4.static.flickr.com/3762/9269236648_102a9b75bd_s.jpg" />
+                          </a>
+                        </div>
+                      </li>
+                                          <li>
+                        <div class="flickr_item">
+                          <a data-rel="prettyPhoto[flickr]" rel="" href="http://farm6.static.flickr.com/5448/9161132688_9f9dafe067_b.jpg">
+                            <img width="50" title="We won the mini football cup among IT companies." height="50" alt="We won the mini football cup among IT companies." src="http://farm6.static.flickr.com/5448/9161132688_9f9dafe067_s.jpg" />
+                          </a>
+                        </div>
+                      </li>
+                                          <li>
+                        <div class="flickr_item">
+                          <a data-rel="prettyPhoto[flickr]" rel="" href="http://farm6.static.flickr.com/5537/9083256860_aa6d2592bf_b.jpg">
+                            <img width="50" title="" height="50" alt="" src="http://farm6.static.flickr.com/5537/9083256860_aa6d2592bf_s.jpg" />
+                          </a>
+                        </div>
+                      </li>
+                                          <li>
+                        <div class="flickr_item">
+                          <a data-rel="prettyPhoto[flickr]" rel="" href="http://farm9.static.flickr.com/8102/8633965855_defa688d67_b.jpg">
+                            <img width="50" title="Нужна велостоянка" height="50" alt="Нужна велостоянка" src="http://farm9.static.flickr.com/8102/8633965855_defa688d67_s.jpg" />
+                          </a>
+                        </div>
+                      </li>
+                                          <li>
+                        <div class="flickr_item">
+                          <a data-rel="prettyPhoto[flickr]" rel="" href="http://farm9.static.flickr.com/8105/8472786873_a24886951a_b.jpg">
+                            <img width="50" title="bb" height="50" alt="bb" src="http://farm9.static.flickr.com/8105/8472786873_a24886951a_s.jpg" />
+                          </a>
+                        </div>
+                      </li>
+                                          <li>
+                        <div class="flickr_item">
+                          <a data-rel="prettyPhoto[flickr]" rel="" href="http://farm9.static.flickr.com/8518/8468430990_8c44e30812_b.jpg">
+                            <img width="50" title="Сидят программируют" height="50" alt="Сидят программируют" src="http://farm9.static.flickr.com/8518/8468430990_8c44e30812_s.jpg" />
+                          </a>
+                        </div>
+                      </li>
+                                          <li>
+                        <div class="flickr_item">
+                          <a data-rel="prettyPhoto[flickr]" rel="" href="http://farm9.static.flickr.com/8334/8147989988_16298350c7_b.jpg">
+                            <img width="50" title="Soccer" height="50" alt="Soccer" src="http://farm9.static.flickr.com/8334/8147989988_16298350c7_s.jpg" />
+                          </a>
+                        </div>
+                      </li>
+                                          <li>
+                        <div class="flickr_item">
+                          <a data-rel="prettyPhoto[flickr]" rel="" href="http://farm9.static.flickr.com/8052/8118555553_048a42a6d4_b.jpg">
+                            <img width="50" title="" height="50" alt="" src="http://farm9.static.flickr.com/8052/8118555553_048a42a6d4_s.jpg" />
+                          </a>
+                        </div>
+                      </li>
+                                      </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_copyright container">
+            <div class="row">
+              <div class="span4 mailing_address">
+                <h3>Mailing Address</h3>
+                <p>Sotsialisticheskaya st. 7-1a<br>347900, Taganrog, Rostov Region<br>+7 (8634) 614-394</p>
+              </div>
+              <div class="span4 workday">
+                <h3>Workday</h3>
+                <p>Monday - Friday, 9:00 am - 6:00 pm (GMT+4)</p>
+              </div>
+              <div class="span4 social_networks">
+                <div class="sociallinks">
+                  <div class="footer-social">
+                    <a href="http://www.facebook.com/lodossteam" class="fa fa-facebook"></a>
+                    <a href="http://www.vk.com/lodossteam" class="fa fa-vk"></a>
+                    <a href="http://twitter.com/lodossteam" class="fa fa-twitter"></a>
+                    <a href="http://youtube.com/lodossteam" class="fa fa-youtube-play"></a>
+                    <a href="http://flickr.com/lodossteam" class="fa fa-flickr"></a>
+                    <a href="skype:kovalev.dmitriy?chat" class="fa fa-skype"></a>
+                    <a href="mailto:hello@lodossteam.com?subject=hello" class="fa fa-envelope-o"></a>
+                    <div class="fb-like" data-href="http://www.facebook.com/lodossteam" data-send="false" data-layout="button_count" data-show-faces="true" data-font="lucida grande"></div>
+                  </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy; <a href="http://www.lodossteam.com/">Lodoss Team</a></p>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+      <div class="footer_phone visible-phone">
+        <div class="email">
+          Send us an email - <a href="mailto:hello@lodossteam.com?subject=hello">hello@lodossteam.com</a>
+        </div>
+        <div class="sociallinks">
+          <a href="http://www.facebook.com/lodossteam" class="fa fa-facebook"></a>
+          <a href="http://www.vk.com/lodossteam" class="fa fa-vk"></a>
+          <a href="http://twitter.com/lodossteam" class="fa fa-twitter"></a>
+          <a href="http://flickr.com/lodossteam" class="fa fa-flickr"></a>
+          <a href="skype:kovalev.dmitriy?chat" class="fa fa-skype"></a>
+        </div>
+      </div>
+
+      <div id="fb-root"></div>
+    
+    <script>
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    </script>
+    <script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) {return;}js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=163216683717360";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
+    <script type="text/javascript" src="http://www.lodossteam.com/js/common.js"></script>
+      <script type="text/javascript" src="http://www.lodossteam.com/js/home.js"></script>
+
+  </body>
+</html>

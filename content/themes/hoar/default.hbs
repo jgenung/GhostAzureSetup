@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{! Document Settings }}
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+    {{! Page Meta }}
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- shortcut icon, Web site icon, tab icon or bookmark icon -->
+	<link rel="shortcut icon" href="/assets/img/favicon.ico" />
+
+	{{! Styles }}
+	<link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
+	<!-- main styles -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+
+    {{! Ghost outputs important style and meta data with this tag }}
+    {{ghost_head}}
+</head>
+<body class="{{body_class}}">
+
+    {{! Everything else gets inserted here }}
+    {{{body}}}
+
+    <footer class="site-footer">
+        <div class="inner">
+			<a class="subscribe icon-feed" href="{{@blog.url}}/rss/"><i class="fa fa-rss"></i> Subscribe</a>
+			<section class="copyright">All content copyright by <a href="http://www.lodossteam.com/" target="_blank"><em>Lodossteam</em></a> &copy; 2014</section>
+			<section class="poweredby hidden">Proudly published with <a class="icon-ghost" href="http://ghost.org">Ghost</a></section>
+        </div>
+    </footer>
+
+    {{! Ghost outputs important scripts and data with this tag }}
+    {{ghost_foot}}
+
+	<!-- Include jQuery -->
+	<script type="text/javascript" src="/assets/js/jquery.js"></script>
+	<!-- Include custom JS -->
+	<script type="text/javascript" src="/assets/js/index.js"></script>
+
+</body>
+</html>

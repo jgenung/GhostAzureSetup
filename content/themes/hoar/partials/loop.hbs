@@ -1,0 +1,41 @@
+{{! This is the post loop - each post will be output using this markup }}
+{{#foreach posts}}
+
+	<article class="{{post_class}}">
+		<div class="post-inner clearfix">
+			<div class="column-left">
+				<span class="post-meta">
+					<time datetime="{{date format='YYYY-MM-DD'}}">
+						<span>{{date format="DD"}}</span>
+						<span>{{date format="MMMM"}}</span>
+						<span>{{date format="YYYY"}}</span>
+					</time>
+				</span>
+			</div>
+
+			<div class="column-right">
+				<header class="post-header">
+					<h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+				</header>
+
+				<span class="post-meta clearfix">
+					<span><i class="fa fa-pencil"></i>{{author}}</span>
+				</span>
+
+				<section class="post-image">
+					{{content words="0"}}
+				</section>
+
+				<section class="post-excerpt">
+					<p>{{excerpt characters="370"}} [...] <a href="{{url}}">READ MORE</a></p>
+
+				</section>
+
+				<span class="post-meta clearfix">
+					{{#if tags}}<span><i class="fa fa-tag"></i>{{name}} {{tags}}</span>{{/if}}
+				</span>
+			</div>
+		</div>
+	</article>
+
+{{/foreach}}

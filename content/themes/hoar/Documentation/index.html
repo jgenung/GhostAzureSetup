@@ -1,0 +1,462 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Hoar Ghost Theme - User Guide</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="Anton Repjov">
+	<meta name="copyright" content="Anton Repjov">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-09-12T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/cufon.js"></script><script src="assets/js/font.js"></script><script>Cufon.replace("h1, h2, h3, h4, h5, h6");</script>
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='450',easing='easeOutExpo';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#F3F3F3;color:#585858;}
+		::-moz-selection{background:#111111;color:#F1F1F1;}
+		::selection{background:#111111;color:#F1F1F1;}
+		#documenter_sidebar #documenter_logo{background-image:url(http://hoar.lodossteam.com/content/images/docs/hoar_logo.svg);}
+		a{color:#111111;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #585858, #3B3B3B);
+			  background-image: -ms-linear-gradient(top, #585858, #3B3B3B);
+			  background-image: -webkit-gradient(linear, 0 0, 0 585858%, from(#333333), to(#3B3B3B));
+			  background-image: -webkit-linear-gradient(top, #585858, #3B3B3B);
+			  background-image: -o-linear-gradient(top, #585858, #3B3B3B);
+			  background-image: linear-gradient(top, #585858, #3B3B3B);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#585858', endColorstr='#3B3B3B', GradientType=0);
+			  border-color: #3B3B3B #3B3B3B #bfbfbf;
+			  color:#F9F9F9;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #585858 #585858 #bfbfbf;
+		  background-color: #3B3B3B;
+		}
+		hr{border-top:1px solid #E5E5E5;border-bottom:1px solid #F9F9F9;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#333333;color:#F1F1F1;http://static.revaxarts-themes.com/noise.gif}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #444444;-moz-text-shadow:1px 1px 0px #444444;text-shadow:1px 1px 0px #444444;}
+		#documenter_sidebar ul{border-top:1px solid #222222;}
+		#documenter_sidebar ul a{border-top:1px solid #444444;border-bottom:1px solid #222222;color:#F1F1F1;}
+		#documenter_sidebar ul a:hover{background:#111111;color:#F1F1F1;border-top:1px solid #111111;}
+		#documenter_sidebar ul a.current{background:#111111;color:#F1F1F1;border-top:1px solid #111111;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-hoar-ghost-theme">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#installation" title="Installation">Installation</a></li>
+			<li><a href="#features" title="Features">Features</a></li>
+			<li><a href="#hbs_files_and_structure" title="HBS FIles and Structure">HBS FIles and Structure</a></li>
+			<li><a href="#css_files_and_structure" title=" CSS Files and Structure"> CSS Files and Structure</a></li>
+			<li><a href="#javascript" title="JavaScript">JavaScript</a></li>
+			<li><a href="#how_to_change_social_networks_links" title="How to change social networks links">How to change social networks links</a></li>
+			<li><a href="#how_to_add_disqus_or_facebook_comments" title="How to add Disqus or Facebook comments">How to add Disqus or Facebook comments</a></li>
+			<li><a href="#how_to_insert_google_map_in_post" title="How to insert Google map in post">How to insert Google map in post</a></li>
+			<li><a href="#top_menu_and_static_pages" title="Top Menu and Static Pages">Top Menu and Static Pages</a></li>
+			<li><a href="#featured_pages" title="Featured pages">Featured pages</a></li>
+			<li><a href="#support" title="Support">Support</a></li>
+			<li><a href="#credits" title="Credits">Credits</a></li>
+			<li><a href="#gratitude" title="Gratitude">Gratitude</a></li>
+			<li><a href="#what_s_next" title="What’s Next?">What’s Next?</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Anton Repjov 2014<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Hoar Ghost Theme</h1>
+	<h2>User Guide</h2>
+	<div id="documenter_buttons">
+		<a href="http://hoar.lodossteam.com" class="btn btn-primary btn-large">Live Preview</a> 
+	</div>
+	<hr>
+	<ul>
+	<li>created: 01/24/2014</li>
+	<li>latest update: 09/12/2014</li>
+	<li>by: Anton Repjov</li>
+	<li><a href=""></a></li>
+	<li>email: <a href="mailto:&#116;&#104;&#101;&#109;&#101;&#46;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#108;&#111;&#100;&#111;&#115;&#115;&#116;&#101;&#97;&#109;&#46;&#99;&#111;&#109;">&#116;&#104;&#101;&#109;&#101;&#46;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#108;&#111;&#100;&#111;&#115;&#115;&#116;&#101;&#97;&#109;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to email us <a href="mailto:&#116;&#104;&#101;&#109;&#101;&#46;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#108;&#111;&#100;&#111;&#115;&#115;&#116;&#101;&#97;&#109;&#46;&#99;&#111;&#109;">&#116;&#104;&#101;&#109;&#101;&#46;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#108;&#111;&#100;&#111;&#115;&#115;&#116;&#101;&#97;&#109;&#46;&#99;&#111;&#109;</a>. Thanks so much!
+</p>
+	</section>
+	
+	<section id="installation">
+	<div class="page-header"><h3>Installation</h3><hr class="notop"></div>
+<h4 id="installation_ghost">Ghost</h4>
+<p>
+	You will need ghost, in order to use this theme. You can find ghost&#39;s download and installation instructions at&nbsp;<a href="https://ghost.org/">Ghost.org</a>.</p>
+<h4 id="installation_theme">Theme</h4>
+<p>
+	Navigate into your ghost folder and simply move folder with theme into the&nbsp;content/themes/&nbsp;directory.&nbsp;</p>
+<p>
+	To switch to your newly added theme:</p>
+<ol>
+	<li>
+		Restart Ghost. At the moment, Ghost won&#39;t notice that you&#39;ve added a new folder tocontent/themes&nbsp;so you&#39;ll need to restart it</li>
+	<li>
+		Login to your Ghost admin, and navigate to&nbsp;/ghost/settings/general/</li>
+	<li>
+		Select your Theme name in the &#39;Theme&#39; options dropdown</li>
+	<li>
+		Click &#39;Save&#39;</li>
+	<li>
+		Visit the frontend of your blog and marvel at the new theme</li>
+</ol>
+<p>
+	That&#39;s all!</p>
+</section>
+<section id="features">
+	<div class="page-header"><h3>Features</h3><hr class="notop"></div>
+<ul>
+	<li>
+		Ghost 0.5.1 compatible</li>
+	<li>
+		Static Pages support</li>
+	<li>
+		Featured Pages</li>
+	<li>
+		HTML5, CSS3 and Responsive Design</li>
+	<li>
+		Cross Browser Compatible (IE9-11, FF, Chrome, Opera, Safari and Mobile)</li>
+	<li>
+		Retina display ready</li>
+	<li>
+		Facebook and/or Disqus comments</li>
+	<li>
+		YouTube, Vimeo, SoundCloud support</li>
+	<li>
+		Social Media Sharing (Facebook, Twitter, Goolgle+)</li>
+	<li>
+		500+ Google Fonts&nbsp;support</li>
+	<li>
+		Google Maps</li>
+	<li>
+		FontAwesome Icons</li>
+	<li>
+		Facebook Opengraph and Twitter Card</li>
+	<li>
+		Detailed HTML Documentation</li>
+	<li>
+		Technical Support</li>
+</ul>
+</section>
+<section id="hbs_files_and_structure">
+	<div class="page-header"><h3>HBS FIles and Structure</h3><hr class="notop"></div>
+<p>
+	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">This theme is fully responsive and look great on all modern devic</span><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">es. Based on theme font and it&#39;s size we chose max width of column equal to 660px for more comfortable reading text.&nbsp;</span>Theme has &nbsp;a similar structre as below.</p>
+<pre style="box-sizing: border-box; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; font-size: 13px; white-space: pre-wrap; padding: 9.5px; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; margin-top: 0px; margin-bottom: 10px; line-height: 1.428571429; word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border-color: rgba(0, 0, 0, 0.14902);">
+<code class="text language-text" data-lang="text" style="box-sizing: border-box; font-family: Inconsolata, monospace; font-size: 1em; padding: 0px; color: inherit; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; background-color: transparent; border: 0px;">.
+├── /assets
+|   └── /css
+|       ├── screen.css
+|   ├── /fonts
+|   ├── /images
+|   ├── /js
+├── default.hbs
+├── error.hbs
+<span style="background-color: transparent; color: inherit; font-size: 1em; line-height: 19px;">├── index.hbs[required]
+</span><span style="background-color: transparent; color: inherit; font-size: 1em; line-height: 19px;">├── post.hbs</span><span style="background-color: transparent; color: inherit; font-size: 1em; line-height: 19px;">[required]</span>
+└── page.hbs</code></pre>
+<p>
+	&nbsp;</p>
+<p>
+	All <strong>*.hbs</strong> fiels are handlebars files. &nbsp;<a href="http://handlebarsjs.com/">Handlebars</a>&nbsp;is the templating language used by Ghost.</p>
+<h3>
+	default.hbs</h3>
+<p>
+	This is the default layout, or base template which contains all the boring bits of HTML that have to appear on every page &ndash; the&nbsp;&lt;html&gt;,&nbsp;&lt;head&gt;&nbsp;and&nbsp;&lt;body&gt;&nbsp;tags along with the&nbsp;{{ghost_head}}&nbsp;and{{ghost_foot}}&nbsp;helpers, as well as any HTML which makes up a repeated header and footer for the blog.</p>
+<p>
+	The default template contains the handlebars expression&nbsp;{{{body}}}&nbsp;to denote where the content from templates which extend the default template goes.</p>
+<p>
+	Page templates then have&nbsp;{{!&lt; default}}&nbsp;as the very first line to specify that they extend the default template, and that their content should be placed into the place in default.hbs where&nbsp;{{{body}}}&nbsp;is defined.</p>
+<h3>
+	index.hbs</h3>
+<p>
+	This is the template for the homepage, and extends&nbsp;default.hbs. The homepage gets passed a list of posts which should be displayed, and&nbsp;index.hbs&nbsp;defines how each posts should be displayed.</p>
+<p>
+	The homepage has a large header which uses&nbsp;@blog&nbsp;global settings to output the blog logo, title and description. This is followed by using the&nbsp;{{#foreach}}&nbsp;helper to output a list of the latest posts.</p>
+<h3>
+	post.hbs</h3>
+<p>
+	This is the template for a single post, which also extends&nbsp;default.hbs.</p>
+<p>
+	In this theme the single post template has it&#39;s simple header then uses the&nbsp;{{#post}}&nbsp;data accessor to output all of the post details.</p>
+<h3>
+	page.hbs</h3>
+<p>
+	This is the template for static pages. If your theme doesn&#39;t have a&nbsp;page.hbstemplate, Ghost will use the standard&nbsp;post.hbs&nbsp;template for pages.</p>
+<p>
+	Pages have exactly the same data available as a post, they simply don&#39;t appear in the list of posts.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">In order to comply&nbsp;</span><a href="http://en.wikipedia.org/wiki/Don't_repeat_yourself" style="margin: 0px; padding: 0px; border: 0px; font-size: 13px; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; vertical-align: baseline; color: rgb(0, 0, 153); line-height: 21.1200008392334px;">DRY</a><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">&nbsp;principle we split all common content on certain partials(</span><span style="color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-size: 15px; line-height: 25.5px;">&nbsp;</span><code style="color: rgb(51, 51, 51); line-height: 25.5px; box-sizing: border-box; font-family: Consolas, 'Liberation Mono', Courier, monospace; margin: 0px 2px; padding: 0px 5px; border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; white-space: nowrap;">partials/comments.hbs</code><i style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">,</i><span style="color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-size: 15px; line-height: 25.5px;">&nbsp;</span><code style="color: rgb(51, 51, 51); line-height: 25.5px; box-sizing: border-box; font-family: Consolas, 'Liberation Mono', Courier, monospace; margin: 0px 2px; padding: 0px 5px; border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; white-space: nowrap;">partials/follow-block.hbs&nbsp;</code><i style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">,&nbsp;</i><span style="color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-size: 15px; line-height: 25.5px;">&nbsp;</span><code style="color: rgb(51, 51, 51); line-height: 25.5px; box-sizing: border-box; font-family: Consolas, 'Liberation Mono', Courier, monospace; margin: 0px 2px; padding: 0px 5px; border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; white-space: nowrap;">partials/header.hbs</code><i style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">,&nbsp;</i><span style="color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-size: 15px; line-height: 25.5px;">&nbsp;</span><code style="color: rgb(51, 51, 51); line-height: 25.5px; box-sizing: border-box; font-family: Consolas, 'Liberation Mono', Courier, monospace; margin: 0px 2px; padding: 0px 5px; border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; white-space: nowrap;">partials/menu-top.hbs</code><i style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">,&nbsp;</i><span style="color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-size: 15px; line-height: 25.5px;">&nbsp;</span><code style="color: rgb(51, 51, 51); line-height: 25.5px; box-sizing: border-box; font-family: Consolas, 'Liberation Mono', Courier, monospace; margin: 0px 2px; padding: 0px 5px; border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; white-space: nowrap;">partials/post-header.hbs</code><i style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">,</i><i style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">&nbsp;</i><span style="color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-size: 15px; line-height: 25.5px;">&nbsp;</span><code style="color: rgb(51, 51, 51); line-height: 25.5px; box-sizing: border-box; font-family: Consolas, 'Liberation Mono', Courier, monospace; margin: 0px 2px; padding: 0px 5px; border: 1px solid rgb(221, 221, 221); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; white-space: nowrap; background-color: rgb(248, 248, 248);">partials/share-block.hbs</code><i style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">)</i><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">.</span><i style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">,</i><i style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">&nbsp;</i><span style="color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-size: 15px; line-height: 25.5px;">&nbsp;</span><code style="color: rgb(51, 51, 51); line-height: 25.5px; box-sizing: border-box; font-family: Consolas, 'Liberation Mono', Courier, monospace; margin: 0px 2px; padding: 0px 5px; border: 1px solid rgb(221, 221, 221); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; white-space: nowrap; background-color: rgb(248, 248, 248);">partials/loop.hbs</code><i style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">)</i><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">.</span></p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.65em;">comments.hbs</strong><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.65em;">&nbsp;- this partial needs if you want to add comment block such as facebook or diqus(see: &quot;</span><em>How to add Disqus or Facebook comments</em>&quot; section<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.65em;">)</span></p>
+<p style="margin: 0px 0px 25px; padding: 0px; border: 0px; font-size: 13px; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; vertical-align: baseline; line-height: 1.65em;">
+	<strong>follow-block.hbs</strong>&nbsp;- here you will able to change links to your social networks&nbsp;<span style="line-height: 1.65em;">(see: &quot;</span><em><span style="font-family: Arial, Verdana, sans-serif; font-size: 12px;">How to change social networks links</span></em><span style="line-height: 1.65em; font-family: Arial, Verdana, sans-serif; font-size: 12px;">&quot; section</span><span style="line-height: 1.65em;">)</span></p>
+<p style="margin: 0px 0px 25px; padding: 0px; border: 0px; font-size: 13px; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; vertical-align: baseline; line-height: 1.65em;">
+	<strong style="line-height: 21.4500007629395px;">loop.hbs</strong><span style="line-height: 21.4500007629395px;">&nbsp;-&nbsp;</span><span style="font-family: Arial, Verdana, sans-serif; font-size: 12px;">each post will be output using this markup</span></p>
+<p style="margin: 0px 0px 25px; padding: 0px; border: 0px; font-size: 13px; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; vertical-align: baseline; line-height: 1.65em;">
+	<strong>menu-top.hbs</strong>&nbsp;- here you will able to change links for static pages<span style="line-height: 1.65em;">(see: &quot;</span><em><span style="font-family: Arial, Verdana, sans-serif; font-size: 12px;">Top menu and static pages</span></em><span style="line-height: 1.65em; font-family: Arial, Verdana, sans-serif; font-size: 12px;">&quot; section</span><span style="line-height: 1.65em;">)</span></p>
+<p style="margin: 0px 0px 25px; padding: 0px; border: 0px; font-size: 13px; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; vertical-align: baseline; line-height: 1.65em;">
+	<strong>pagination.hbs</strong>&nbsp;- this is standard partial there you can change pagination view</p>
+</section>
+<section id="css_files_and_structure">
+	<div class="page-header"><h3> CSS Files and Structure</h3><hr class="notop"></div>
+<p>	We have following structure of css files:</p>
+<p>	<img alt="" src="assets/images/image_1.png" style="width: 526px; height: 91px;"></p>
+<p>	<strong><font face="Helvetica Neue, Arial, Helvetica, sans-serif" size="2"><span style="line-height: 21.1200008392334px;">font-awesome.min.css</span></font></strong>&nbsp;gives you scalable vector icons that can instantly be customized &mdash; size, color, drop shadow, etc</p>
+<p>	<strong style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">normalize.css</strong><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">&nbsp;is a generic reset file. Many browser interpret the default behavior of html elements differently. By using a general reset CSS file, we can work round this. This file also contains some general styling, such as anchor tag colors, font-sizes, etc. Keep in mind, that these values might be overridden somewhere else in the file.</span></p>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">The last one is&nbsp;</span><strong style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">screen.css</strong><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">&nbsp;contains all of the specific stylings for the page. The file is separated into sections using:</span></p>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;"><img alt="" src="assets/images/image_2.png" style="width: 887px; height: 376px;"></span></p>
+<p>	&nbsp;</p>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</span></p>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">OR if you use Chrome Browser</span></p>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">You can click right mouse button on any HTML element and select&nbsp;</span><strong style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">Inspect Element</strong><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">&nbsp;item in context menu</span></p>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;"><img alt="" src="assets/images/image_6.png" style="width: 503px; height: 400px;"></span></p>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">and you will see all css properties of this element and it&#39;s line position in css file</span></p>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;"><img alt="" src="assets/images/image_7.png" style="width: 352px; height: 155px;"></span></p>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">then just find this line in CSS file and change what you need.</span></p>
+</section>
+<section id="javascript">
+	<div class="page-header"><h3>JavaScript</h3><hr class="notop"></div>
+<p style="margin: 0px 0px 25px; padding: 0px; border: 0px; font-size: 13px; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; vertical-align: baseline; line-height: 1.65em;">
+	This theme imports three Javascript files.</p>
+<ol style="margin: 0px 1.5em 1.5em 3.5em; padding-right: 0px; padding-left: 0px; border: 0px; font-size: 13px; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; vertical-align: baseline; line-height: 19.200000762939453px;">
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		jQuery&nbsp;<strong><i>jquery.js</i></strong></li>
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		Custom scripts&nbsp;<strong><i>index.js</i></strong></li>
+</ol>
+<ol style="margin: 0px 1.5em 1.5em 3.5em; padding-right: 0px; padding-left: 0px; border: 0px; font-size: 13px; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; vertical-align: baseline; line-height: 19.200000762939453px;">
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		Animation and other effects in this theme is carried out from the customs scripts. In this file we also added custom Google map generator, it build map based on special tag inserted in the post.</li>
+</ol>
+</section>
+<section id="how_to_change_social_networks_links">
+	<div class="page-header"><h3>How to change social networks links</h3><hr class="notop"></div>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">In this theme we put social links in the header as white circles</span></p>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;"><img alt="" src="assets/images/image_8.jpg" style="width: 762px; height: 332px;"></span></p>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">In order to change links on your social networks, you need open&nbsp;</span><strong style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;"><i>&quot;partials/follow-block.hbs&quot;</i></strong><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">&nbsp;file using any text editor. Find following text &quot;#you-link-here&quot; and replace on your real social links, for example on &quot;http://www.facebook.com/lodossteam&quot;, save file.</span></p>
+</section>
+<section id="how_to_add_disqus_or_facebook_comments">
+	<div class="page-header"><h3>How to add Disqus or Facebook comments</h3><hr class="notop"></div>
+<p style="margin: 0px 0px 25px; padding: 0px; border: 0px; font-size: 13px; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; vertical-align: baseline; line-height: 1.65em;">
+	If you need to add comments to your blog you can use one of 3th party scripts such as&nbsp;<a href="http://disqus.com/" style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 153);">disqus</a>&nbsp;or&nbsp;<a href="https://developers.facebook.com/docs/plugins/comments/" style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 153);">facebook</a>. We stylized these scripts for you and they will looks great on your blog. In order to use comments you need just insert code which services provide and enjoy.</p>
+<h5 style="margin: 0px 0px 1.5em; padding: 0px; border: 0px; font-size: 1em; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; vertical-align: baseline; color: rgb(17, 17, 17); line-height: 19.200000762939453px;">
+	Steps:</h5>
+<ul style="margin: 0px 1.5em 1.5em 3.5em; padding-right: 0px; padding-left: 0px; border: 0px; font-size: 13px; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; vertical-align: baseline; line-height: 19.200000762939453px;">
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		Get code from Facebook or Disqus</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		Open&nbsp;<strong><i>&quot;partials/comments.hbs&quot;</i></strong>&nbsp;file using any text editor.</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		Add code after &lt;!-- insert your commentaries widget here --&gt;</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		Save file</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		Open&nbsp;<strong><i>&quot;post.hbs&quot;</i></strong>&nbsp;file using any text editor.</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		Find line 63&nbsp;<strong>&lt;div class=&quot;column-right author&quot; style=&quot;display:none&quot;&gt;</strong></li>
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		Remove attribute&nbsp;<strong>style=&quot;display:none&quot;</strong></li>
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		Save file</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		That is all</li>
+</ul>
+<p style="margin: 0px 0px 25px; padding: 0px; border: 0px; font-size: 13px; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; vertical-align: baseline; line-height: 1.65em;">
+	By default theme does not contain comments</p>
+<div>
+	&nbsp;</div>
+</section>
+<section id="how_to_insert_google_map_in_post">
+	<div class="page-header"><h3>How to insert Google map in post</h3><hr class="notop"></div>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">If you need to show some place on the map, now you can do it very easy, we did a small js plugin for this.</span></p>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;"><img alt="" src="assets/images/image_5.png" style="width: 600px;"></span></p>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">So in order to show a map you just need to go to admin side and insert the following code in post editor.</span></p>
+<pre style="margin-top: 1.5em; margin-bottom: 1.5em; padding: 0px; border: 0px; font-size: 13px; font-family: 'andale mono', 'lucida console', monospace; vertical-align: baseline; line-height: 1.5;">
+&lt;mapper&gt;
+  {
+    &quot;lat&quot;: 47.221860,
+    &quot;lng&quot;: 38.922286,
+    &quot;width&quot;: &quot;100%&quot;,
+    &quot;height&quot;: &quot;200px&quot;,
+    &quot;zoom&quot;: &quot;16&quot;,
+    &quot;markerTitle&quot;: &quot;any text here&quot;,
+    &quot;mapDraggable&quot;: false,
+    &quot;scrollwheel&quot;: false
+  }
+&lt;/mapper&gt;</pre>
+<div>
+	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">You can copy this as example and change for your needs</span></div>
+<div>
+	<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+		<thead>
+			<tr>
+				<th scope="col">
+					Option</th>
+				<th scope="col">
+					Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					lat</td>
+				<td>
+					<strong>number</strong></td>
+			</tr>
+			<tr>
+				<td>
+					lng</td>
+				<td>
+					<strong>Number</strong></td>
+			</tr>
+			<tr>
+				<td>
+					width</td>
+				<td>
+					<i style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.200000762939453px;"><strong>String</strong>. Examples: &quot;100%&quot;, &quot;20px&quot;</i></td>
+			</tr>
+			<tr>
+				<td>
+					<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.200000762939453px;">height</span></td>
+				<td>
+					<i style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.200000762939453px;"><strong>String</strong>. Examples: &quot;100%&quot;, &quot;20px&quot;</i></td>
+			</tr>
+			<tr>
+				<td>
+					<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.200000762939453px;">zoom</span></td>
+				<td>
+					<i style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.200000762939453px;"><strong>Number</strong>. Maps on Google Maps have an integer &quot;zoom level&quot; which defines the resolution of the current view. Zoom levels between 0 (the lowest zoom level, in which the entire world can be seen on one map) to 21+ (down to individual buildings) are possible within the default roadmap maps view.</i></td>
+			</tr>
+			<tr>
+				<td>
+					<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.200000762939453px;">markerTitle</span></td>
+				<td>
+					<strong style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.200000762939453px;"><i>String</i></strong><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.200000762939453px;">. Text which will be displayed by hover</span></td>
+			</tr>
+			<tr>
+				<td>
+					<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.200000762939453px;">mapDraggable</span></td>
+				<td>
+					<strong style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.200000762939453px;"><i>bool</i></strong><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.200000762939453px;">. default false. True if you want to make map draggable</span></td>
+			</tr>
+			<tr>
+				<td>
+					<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.200000762939453px;">scrollwheel</span></td>
+				<td>
+					<strong style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.200000762939453px;"><i>bool</i></strong><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.200000762939453px;">. default false. True if you need to make zoom by scroll wheel</span></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div>
+	&nbsp;</div>
+</section>
+<section id="top_menu_and_static_pages">
+	<div class="page-header"><h3>Top Menu and Static Pages</h3><hr class="notop"></div>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">If you use Ghost 0.4 or greater you can toggle any post to be a &quot;page&quot; from within your post settings menu. This will remove it from your post feed. About / Contact / Terms galore.</span></p>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;"><img alt="" src="assets/images/image_9.png" style="width: 500px; height: 248px;"></span></p>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.65em;">By default top menu will be hidden, but when you will need to do static pages you should do following steps:</span></p>
+<h5 style="margin: 0px 0px 1.5em; padding: 0px; border: 0px; font-size: 1em; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; vertical-align: baseline; color: rgb(17, 17, 17); line-height: 19.200000762939453px;">
+	Steps:</h5>
+<ul style="margin: 0px 1.5em 1.5em 3.5em; padding-right: 0px; padding-left: 0px; border: 0px; font-size: 13px; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; vertical-align: baseline; line-height: 19.200000762939453px;">
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		Toggle Post to &quot;Page&quot;.</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		Copy URL from settings menu</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		Go to&nbsp;<i>&quot;partials/menu-top.hbs&quot;</i>&nbsp;and make top menu visible, change styel=&quot;display:none&quot; to style=&quot;display:block&quot;</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+		Add new links or modify existing.&nbsp;<i>Do not forget insert &quot;/&quot; before and after URL</i></li>
+	<li>		&nbsp;</li>
+</ul>
+<p style="margin: 0px 0px 25px; padding: 0px; border: 0px; font-size: 13px; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; vertical-align: baseline; line-height: 1.65em;">
+	<img alt="" src="assets/images/image_10.png" style="width: 888px; height: 293px;"></p>
+</section>
+<section id="featured_pages">
+	<div class="page-header"><h3>Featured pages</h3><hr class="notop"></div>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">If you use Ghost 0.4 or greater you can mark any post as &quot;featured&quot;, for this just click a star in CONTENT section on admin side.&nbsp;</span></p>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;"><img alt="" src="assets/images/image_3.png" style="width: 500px; height: 123px;"></span></p>
+<p>	&nbsp;</p>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">Featured posts have a special nice ribbon.</span></p>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;"><img alt="" src="assets/images/image_4.png"  ></span></p>
+<p>	&nbsp;</p>
+<p>	&nbsp;</p>
+<p>	&nbsp;</p>
+</section>
+<section id="support">
+	<div class="page-header"><h3>Support</h3><hr class="notop"></div>
+<div>
+	We try to give our customers the best support possible. If you have any question or you need support , please email us at &#116;&#104;&#101;&#109;&#101;&#46;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#108;&#111;&#100;&#111;&#115;&#115;&#116;&#101;&#97;&#109;&#46;&#99;&#111;&#109;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<em>Support does not include:</em></div>
+<ul>	<li>		Customization and installation services</li>
+	<li>		Support for third party software and plug-ins</li>
+</ul>
+<p>	&nbsp;</p>
+<div>
+	&nbsp;</div>
+</section>
+<section id="credits">
+	<div class="page-header"><h3>Credits</h3><hr class="notop"></div>
+<p>	jQuery -&nbsp;<a href="http://jquery.com/">http://jquery.com/</a></p>
+<p>	Font Awesome -&nbsp;<a href="http://fortawesome.github.io/Font-Awesome/">http://fortawesome.github.io/Font-Awesome/</a></p>
+<p>	Demo Images from unsplash.com -&nbsp;<a href="http://unsplash.com/">http://unsplash.com/</a></p>
+</section>
+<section id="gratitude">
+	<div class="page-header"><h3>Gratitude</h3><hr class="notop"></div>
+<p>	<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 21.1200008392334px;">Once again, thank you so much for purchasing this theme. As I said at the beginning, I&#39;d be glad to help you if you have any questions relating to this theme. No guarantees, but I&#39;ll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the &quot;Item Discussion&quot; section.</span></p>
+</section>
+<section id="what_s_next">
+	<div class="page-header"><h3>What’s Next?</h3><hr class="notop"></div>
+<div>
+	&nbsp;</div>
+<div>
+	We tread on the heels of Ghost. If you need any extra or feature just email us and we will include it in the next update.</div>
+</section>
+
+	</div>
+</body>
+</html>
