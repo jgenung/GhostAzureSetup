@@ -675,10 +675,17 @@ a.toggle-mobile-menu {
       -moz-box-sizing: border-box;
       box-sizing: border-box;
       padding-left: 140px; }
-    .post-template #site-head #blog-logo {
+   /* .post-template #site-head #blog-logo {
       position: absolute;
       top: calc(50% - 25px);
       left: 132px;
+      vertical-align: middle;
+      bottom: auto;
+      z-index: 1; }*/
+    .post-template #site-head #blog-logo {
+      position: absolute;
+      top: calc(50% - 50px);
+      left: 105px;
       vertical-align: middle;
       bottom: auto;
       z-index: 1; }
